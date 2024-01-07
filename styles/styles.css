@@ -1,0 +1,39 @@
+
+
+.header{
+    background-image: url('../images/Banner\ Image.png');
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    /* margin: 0 50px; */
+    height: 600px;
+    width: 1300px;
+    margin: 0 auto;
+}
+.banner{
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-con h1{
+    color: #FFF;
+    text-align: center;
+font-size: 31px;
+/* padding: ; */
+/* margin: 50%; */
+padding: 177px 530px;
+}
+.banner-con h3{
+
+color: #FFF;
+text-align: center;
+/* padding: 283px 484px; */
+/* padding-top: 200px; */
+font-size: 72px;
+padding-bottom: 460px;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
