@@ -1,5 +1,4 @@
 
-
 .header{
     background-image: url('../images/Banner\ Image.png');
     /* height: 100vh; */
@@ -41,6 +40,7 @@ padding-bottom:  550px;
     width: 700px;
 
 }
+
 .test{
     color: red;
     text-align: center;
@@ -371,3 +371,4 @@ font-weight: 400;
 .nost{
     margin-bottom: 100px;
 }
+
