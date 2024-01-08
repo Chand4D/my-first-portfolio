@@ -144,6 +144,7 @@ padding: 120px 300px;
 width: 1600px;
 /* margin-left: 140px; */
 margin: 0 auto;
+/* color:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
  }
 
  .title{
@@ -298,4 +299,65 @@ margin-left: 100px;
 .tmi{
     width: 24px;
     height: 24px;
+}
+.best{
+   width: 1200px;
+   height: 400px; 
+background: rgb(188, 166, 166);
+   margin: 0 auto;
+   /* margin-bottom: 100px; */
+   display: flex;
+   padding: 50px;
+   gap: 50px;
+}
+.best-title{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+.best-description{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+margin-top: 0;
+}
+.best-concept{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+  width: 350px;
+}
+.two-best{
+    color: #F00;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 0;
+}
+.two-best-pra{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+
+}
+.best-chobi{
+    width: 140px;
+    height: 140px;
+}
+.best-photto{
+    border-radius: 463px;
+    border: 10px solid #F00;
+    /* border-radius: 50% solid red; */
+    width: 350px;
+    height: 350px;
+}
+.best-offer{
+
+/* padding: 15px; */
+}
+.best-title-two{
+    margin-left: 20px;
 }
