@@ -140,11 +140,12 @@ padding: 120px 300px;
  }
  .tit{
     /* text-align: center; */
-    justify-content: center;
+    /* justify-content: center; */
 width: 1600px;
 /* margin-left: 140px; */
 margin: 0 auto;
 /* color:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+/* margin-right: 100px; */
  }
 
  .title{
@@ -365,4 +366,8 @@ font-weight: 400;
 }
 .best-title-two{
     margin-left: 20px;
+}
+
+.nost{
+    margin-bottom: 100px;
 }
