@@ -230,3 +230,67 @@ font-size: 20px;
 font-weight: 400;
 /* width: 700px; */
 }
+.input{
+   width: 600px; 
+   padding: 20px;
+   border-radius: 40px;
+   border: 0;
+}
+.rong{
+    /* color: #F00; */
+    background: #F00;
+    border-radius: 30px;
+    padding: 20px;
+width: 110px;
+border: 0;
+}
+.nand{
+    margin-bottom: 100px;
+}
+.footer{
+    width: 1600px;
+    height: 600px;
+    background: #070211;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.foot-title{
+    color: #FFF;
+width: 500px;
+margin-left: 100px;
+}
+.foot-contact{
+    color: #FFF;
+}
+.foot-website{
+    color: #FFF;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.kal{
+    display: block;
+    margin-right: 100px;
+}
+.footer-images{
+    text-align: center;
+    padding: 30px;
+    gap: 17px;
+}
+
+.foott-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.foot-title-two{
+color: #FFF;
+margin-left: 100px;
+}
+.foot-un{
+    color: #FFF;
+    margin-right: 100px;
+}
