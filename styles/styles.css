@@ -1,4 +1,9 @@
 
+body{
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
 .header{
     background-image: url('../images/Banner\ Image.png');
     /* height: 100vh; */
@@ -12,14 +17,17 @@
     border-radius: 16px;
 background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 /* position: relative; */
+position: relative;
 }
 .banner-con h1{
     color: #FFF;
     text-align: center;
-font-size: 31px;
+font-size: 32px;
 /* padding: ; */
 /* margin: 50%; */
-padding: 177px 530px;
+padding: 187px 530px;
+width: 300px;
+
 }
 .banner-con h3{
 
@@ -27,17 +35,19 @@ color: #FFF;
 text-align: center;
 justify-content: center;
 /* padding: 283px 484px; */
-/* padding-top: 200px; */
+padding-top: 60px;
 font-size: 72px;
 padding-bottom:  550px;
+margin-left: 25px;
+font-weight: 900;
 
 }
 .middle{
     position: absolute;
-    top: 50%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
+    width: 650px;
 
 }
 
@@ -116,8 +126,8 @@ gap: 5px;
     /* margin-bottom: 50px; */
     width: 1300px;
     height: 400px;
-    background: rgb(199, 181, 157);
-     
+    /* background: rgb(199, 181, 157); */
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
      /* background: linear-gradient(rgb(200, 135, 145),blue); */
     margin: 0 auto;
     margin-bottom: 70px;
@@ -208,7 +218,9 @@ border-radius: 10px;
     text-align: center;
     width: 950px;
     height: 400px;
-    background: antiquewhite;
+    /* background: antiquewhite; */
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
     margin-left: 250px;
     padding: 200px;
     margin: 0 auto;
@@ -246,6 +258,11 @@ font-weight: 400;
 width: 110px;
 border: 0;
 }
+
+
+
+
+
 .nand{
     margin-bottom: 100px;
 }
@@ -281,6 +298,15 @@ margin-left: 100px;
     text-align: center;
     padding: 30px;
     gap: 17px;
+    /* margin: 10px; */
+    /* row-gap: 10px; */
+}
+
+.by{
+    width: 64px;
+    height: 64px;
+  /* margin-left: 10px; */
+  margin-right: 20px; 
 }
 
 .foott-two{
@@ -300,16 +326,20 @@ margin-left: 100px;
 .tmi{
     width: 24px;
     height: 24px;
+    /* margin-top: 235px; */
+    /* margin-bottom: 30px; */
+    /* margin-right: 100px; */
 }
 .best{
    width: 1200px;
    height: 400px; 
-background: rgb(188, 166, 166);
+/* background: rgb(188, 166, 166); */
    margin: 0 auto;
    /* margin-bottom: 100px; */
    display: flex;
    padding: 50px;
    gap: 50px;
+   background: #FFF;
 }
 .best-title{
     color: #F00;
@@ -359,6 +389,7 @@ font-weight: 400;
     /* border-radius: 50% solid red; */
     width: 350px;
     height: 350px;
+    padding: 20px;
 }
 .best-offer{
 
@@ -371,4 +402,5 @@ font-weight: 400;
 .nost{
     margin-bottom: 100px;
 }
+
 
